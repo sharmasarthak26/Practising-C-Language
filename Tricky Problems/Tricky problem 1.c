@@ -1,8 +1,11 @@
-Write a program to get a user input as Integer variable using “scanf”.
-Convert the integer into character string and print the same as string using “printf”
-
+Write a program to get a user input as Integer variable using â€œscanfâ€.
+Convert the integer into character string and print the same as string using â€œprintfâ€
 
 Ex:-
+	Enter Number   :- 123456789
+	Entered Number :- 123456789
+
+Format:-    
 
 #include <stdio.h>
 int main()
