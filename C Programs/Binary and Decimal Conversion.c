@@ -18,21 +18,19 @@ int main( )
 
      int weight = 1;
  
-    while(decimal!= 0)
- 
+     while(decimal!= 0)
      {
      
           int rem = decimal % 2;
   
           binary = binary + rem * weight;
   
-        decimal /= 2;
+          decimal /= 2;
       
           weight *= 10;
+     }
  
-    }
- 
-    printf("binary value is %d",binary);
+     printf("binary value is %d",binary);
  
      return 0;
 
@@ -72,9 +70,7 @@ int main( )
          binary /= 10;
       
          weight *= 2;
-   
-    
- }
+     }
 
      printf("decimal value is %d",decimal);
  
