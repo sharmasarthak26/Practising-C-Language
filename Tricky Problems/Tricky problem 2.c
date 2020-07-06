@@ -1,8 +1,10 @@
-Write a program to get a user input as string using “scanf”.
-Convert the string  into integer and  print the same as integer using “printf”.
+Write a program to get a user input as string using â€œscanfâ€.
+Convert the string  into integer and  print the same as integer using â€œprintfâ€.
 
-Ex:-
-
+Ex:-  Enter the Number:- 123456789
+      Entered number  :- 123456789
+	
+Format:-
 #include <stdio.h>
 int main()
 {
