@@ -10,61 +10,34 @@ Example:
         Invalid Number : 12334578UAX4343abc343445
 
 C Program:- 
-
 #include<stdio.h>
-
 int main()
-
 {
-   
-	 char a[50];
- 
-         scanf("%s",a);
- 
-         int i;
- 
-         int flag =0;
+      char a[50];
+      scanf("%s",a);
+      int i;
+      int flag =0;
      
-    for(i=0;a[i]!='\0';i++)
-
-           {
-    
-		    if(a[i]>='0' && a[i]<='9')
-		
-        {
-         
-			   flag = 1;
-		
-        }
-       
-                    else
- 
-                        {
-           
-                           break;
-                
-        }
-
-        
-    }
- 
-           if(flag == 1)
-        
-    {
-       
-                printf("Valid number ");
- 
-            }
-  
-           else
- 
-            {
-      
-                printf("Invalid number");
-  
-            } 
- 
-        return 0;
+      for(i=0;a[i]!='\0';i++)
+      {
+         if(a[i]>='0' && a[i]<='9')
+         {
+              flag = 1;
+	 }
+	 else
+	 {
+              break;       
+	 }   
+      }
+      if(flag == 1)
+      {
+        printf("Valid number\n");
+      }
+      else
+      {
+        printf("Invalid number");
+      } 
+      return 0;
 
 }
 
