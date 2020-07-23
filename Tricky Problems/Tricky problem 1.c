@@ -32,7 +32,7 @@ int main()
 	j = i;
 	while(j)
 	{
-		a[index++] = j%10;
+		a[++index] = j%10;
 		j /= 10;
 	}
 	for(i=0;i<index;i++)
