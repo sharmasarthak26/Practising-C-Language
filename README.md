@@ -72,3 +72,7 @@ If You are beginner level programmer this will help you a lot...
 8. Write a C program to count number of vowels in the given string.
 
 9. Write a C program to reverse every word from given string using function.
+
+
+
+## Thanks for Reading, I hope it will help 
