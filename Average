@@ -1,20 +1,18 @@
 #include<stdio.h>
-
-int main()
+#include<conio.h>
+main()
 {
-
-    int n, i;
-    float sum = 0, x;
-
-    printf("Enter number of elements:  ");
-    scanf("%d", &n);
-    printf("\n\n\nEnter %d elements\n\n", n);
-    for(i = 0; i < n; i++)
-    {
-        scanf("%f", &x);
-        sum += x;
-    }
-    printf("\n\n\nAverage of the entered numbers is =  %f", (sum/n));
-    printf("\n\n\n\n\t\t\tCoding is Fun !\n\n\n");
-    return 0;
+      int n,c;
+      float a,sum=0;
+      printf("enter a number\n");
+      scanf("%d",&n);
+      for(c=1;c<=n;c++)
+      {
+          sum=sum+c;
+            printf("%d+",c);
+      }
+     a=sum/(n+1);
+     printf("=%f\n",sum);
+     printf("average=%f",a);
+     getch();
 }
