@@ -37,6 +37,8 @@ If You are beginner level programmer this will help you a lot...
 
 1. Temperature Conversion using function.
 
+1. Finding Average
+
 ### Tricky Programs
 1. Write a program to get a user 'input as Integer variable' using **_scanf_**.
    Convert the 'integer into character string and print the same as string' using **_printf_**
